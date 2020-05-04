@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "187693486731",
+    "firebase_url": "https://paramount-group-scheduler.firebaseio.com",
+    "project_id": "paramount-group-scheduler",
+    "storage_bucket": "paramount-group-scheduler.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:187693486731:android:cc20dd842b04f03355ba8e",
+        "android_client_info": {
+          "package_name": "edu.psu.jbr5410.paramount"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "187693486731-t1qmf1t2jc4uf8b190uksre046nis1a6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.psu.jbr5410.paramount",
+            "certificate_hash": "e1722661c42a5895b5d45e177ee97c10b8cae4be"
+          }
+        },
+        {
+          "client_id": "187693486731-mjfa54o7b0ti3uha1to7o6og4k9fcjd5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhqVRSz1dH1307g0TGY9ILsNjtolt3VDM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "187693486731-mjfa54o7b0ti3uha1to7o6og4k9fcjd5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:187693486731:android:10d6a2a1c74bc2be55ba8e",
+        "android_client_info": {
+          "package_name": "edu.psu.jbr5410.paramount475"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "187693486731-mjfa54o7b0ti3uha1to7o6og4k9fcjd5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhqVRSz1dH1307g0TGY9ILsNjtolt3VDM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "187693486731-mjfa54o7b0ti3uha1to7o6og4k9fcjd5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:187693486731:android:a5ad3b3b3095fc2655ba8e",
+        "android_client_info": {
+          "package_name": "edu.psu.jbr5410.paramount_two"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "187693486731-mjfa54o7b0ti3uha1to7o6og4k9fcjd5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhqVRSz1dH1307g0TGY9ILsNjtolt3VDM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "187693486731-mjfa54o7b0ti3uha1to7o6og4k9fcjd5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
