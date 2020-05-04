@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Packages" >
+        <item>Single Play</item>
+        <item>Double Play</item>
+        <item>Triple Play</item>
+        <item>Basic</item>
+        <item>Sleepover</item>
+        <item>Ninja Warrior Experience</item>
+        <item>Ninja Warrior Exclusive</item>
+        <item>Ninja Warrior Extra</item>
+        <item>Ninja Warrior Extreme</item>
+    </string-array>
+
+    <string-array name="Rooms" >
+        <item>Main Gym</item>
+        <item>Kid Maze</item>
+        <item>Rockwall</item>
+        <item>Preschool Room</item>
+    </string-array>
+</resources>
