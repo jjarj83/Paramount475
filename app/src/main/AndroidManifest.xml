@@ -10,6 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity android:name=".LoadingDialog"></activity>
+        <activity android:name=".SettingsActivity" />
         <activity android:name=".CheckoutActivity" />
         <activity android:name=".FinalDetailsActivity" />
         <activity android:name=".TimeslotActivity" />

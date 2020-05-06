@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen
-    xmlns:app="http://schemas.android.com/apk/res-auto">
-
+<PreferenceScreen xmlns:android="https://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:dialogTitle="Enter a default Contact Name"
+        android:key="defaultContact"
+        android:summary="Click to show a text entry dialog"
+        android:title="Default Contact Name" />
+    <EditTextPreference
+        android:dialogTitle="Enter a default Contact Email"
+        android:inputType="email"
+        android:key="defaultEmail"
+        android:summary="Click to show a text entry dialog"
+        android:title="@string" />
+    <EditTextPreference
+        android:dialogTitle="Enter a default Contact Phone Number"
+        android:key="defaultPhone"
+        android:summary="Click to show a text entry dialog"
+        android:title="Default Contact Phone Number" />
 
 </PreferenceScreen>
