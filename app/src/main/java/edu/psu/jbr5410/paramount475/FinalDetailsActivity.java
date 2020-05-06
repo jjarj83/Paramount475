@@ -4,7 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.DialogFragment;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -60,7 +62,7 @@ public class FinalDetailsActivity extends AppCompatActivity implements Confirmat
         totalText.setText(total);
 
         setUpValidation();
-
+        checkPreferences();
     }
 
     public void submit(View view) {
@@ -182,6 +184,21 @@ public class FinalDetailsActivity extends AppCompatActivity implements Confirmat
             }
         });
 
+    }
+
+    public void checkPreferences() {
+        SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(this);
+        String defaultContact = sharedPref.getString("defaultContact", "");
+        EditText contactName = findViewById(R.id.edit_contact_last);
+        contactName.setText(defaultContact);
+
+        String defaultEmail = sharedPref.getString("defaultEmail", "");
+        EditText contactEmail = findViewById(R.id.edit_contact_email);
+        contactEmail.setText(defaultEmail);
+
+        String defaultPhone = sharedPref.getString("defaultPhone", "");
+        EditText contactPhone = findViewById(R.id.edit_contact_phone);
+        contactPhone.setText(defaultPhone);
     }
 
     public void onDialogPositiveClick (DialogFragment dialog) {}

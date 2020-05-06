@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="https://schemas.android.com/apk/res/android">
+
     <EditTextPreference
         android:dialogTitle="Enter a default Contact Name"
         android:key="defaultContact"
