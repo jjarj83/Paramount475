@@ -125,4 +125,27 @@ public class TwoRoomActivity extends AppCompatActivity {
 
         startActivity(intent);
     }
+
+    @Override
+    public void onRestoreInstanceState(Bundle saved) {
+        super.onRestoreInstanceState(saved);
+
+        day = saved.getInt("day");
+        month = saved.getInt("month");
+        year = saved.getInt("year" );
+        dayOfWeek = saved.getInt("dayOfWeek");
+        partyPackage = saved.getInt("package");
+
+    }
+
+    @Override
+    public void onSaveInstanceState(Bundle saved) {
+        saved.putInt("day", day);
+        saved.putInt("month", month);
+        saved.putInt("year", year);
+        saved.putInt("dayOfWeek", dayOfWeek);
+        saved.putInt("package", partyPackage);
+
+        super.onSaveInstanceState(saved);
+    }
 }

@@ -186,7 +186,8 @@ public class FinalDetailsActivity extends AppCompatActivity implements Confirmat
 
     public void onDialogPositiveClick (DialogFragment dialog) {}
 
-    /*@Override
+
+    @Override
     public void onRestoreInstanceState(Bundle saved) {
         super.onRestoreInstanceState(saved);
 
@@ -196,6 +197,7 @@ public class FinalDetailsActivity extends AppCompatActivity implements Confirmat
         dayOfWeek = saved.getInt("dayOfWeek");
         partyPackage = saved.getInt("package");
         rooms = saved.getIntegerArrayList("rooms");
+        roomsTimes = saved.getIntArray("roomsTimes");
 
         String total;
 
@@ -212,9 +214,23 @@ public class FinalDetailsActivity extends AppCompatActivity implements Confirmat
             default: price = 17500; total = "$175.00"; break;
         }
 
-        EditText totalText = findViewById(R.id.price_Text);
+        TextView totalText = findViewById(R.id.price_Text);
         totalText.setText(total);
 
-    }*/
+    }
+
+
+    @Override
+    public void onSaveInstanceState(Bundle saved) {
+        saved.putInt("day", day);
+        saved.putInt("month", month);
+        saved.putInt("year", year);
+        saved.putInt("dayOfWeek", dayOfWeek);
+        saved.putInt("package", partyPackage);
+        saved.putIntegerArrayList("rooms", (ArrayList<Integer>) rooms);
+        saved.putIntArray("roomsTimes", roomsTimes);
+
+        super.onSaveInstanceState(saved);
+    }
 
 }

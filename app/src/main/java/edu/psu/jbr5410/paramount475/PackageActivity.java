@@ -14,6 +14,7 @@ import android.widget.TextView;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 
@@ -147,6 +148,31 @@ public class PackageActivity extends AppCompatActivity {
         intent.putExtra("package", partyPackage);
 
         startActivity(intent);
+    }
+
+
+    @Override
+    public void onRestoreInstanceState(Bundle saved) {
+        super.onRestoreInstanceState(saved);
+
+        day = saved.getInt("day");
+        month = saved.getInt("month");
+        year = saved.getInt("year" );
+        dayOfWeek = saved.getInt("dayOfWeek");
+
+        TextView textDate = findViewById(R.id.text_date);
+        textDate.setText(month + "/" + day + "/" + year);
+
+    }
+
+    @Override
+    public void onSaveInstanceState(Bundle saved) {
+        saved.putInt("day", day);
+        saved.putInt("month", month);
+        saved.putInt("year", year);
+        saved.putInt("dayOfWeek", dayOfWeek);
+
+        super.onSaveInstanceState(saved);
     }
 
 }
