@@ -6,10 +6,10 @@
         <item>Triple Play</item>
         <item>Basic</item>
         <item>Sleepover</item>
-        <item>Ninja Warrior Experience</item>
-        <item>Ninja Warrior Exclusive</item>
-        <item>Ninja Warrior Extra</item>
-        <item>Ninja Warrior Extreme</item>
+<!--        <item>Ninja Warrior Experience</item>-->
+<!--        <item>Ninja Warrior Exclusive</item>-->
+<!--        <item>Ninja Warrior Extra</item>-->
+<!--        <item>Ninja Warrior Extreme</item>-->
     </string-array>
 
     <string-array name="Rooms" >
